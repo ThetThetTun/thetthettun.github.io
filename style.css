@@ -1,0 +1,54 @@
+body{
+	font-family:sans-serif;
+	background-color:#d6bf7e;
+}
+
+form{
+	width:900px;
+	background-color:#fff;
+
+	border-radius:20px;
+
+	display:block;
+	margin:auto;
+
+	padding:20px;
+}
+
+h2{
+	text-align:center;
+}
+
+fieldset{
+	border:1px solid #444;
+	border-radius:10px;
+	margin:5px;
+}
+
+legend{
+	font-weight:600;
+	padding:10px;
+}
+
+input[type="text"], input[type="email"], input[type="number"]{
+	width:150px;
+}
+
+/*input[type="file"]{
+	color:#fff;
+	background-color:red;
+}*/
+
+input[type="submit"]{
+	color:#fff;
+	background-color:red;
+	font-size:20px;
+	border:none;
+
+	display:block;
+	margin:auto;
+
+	padding:10px;
+
+	border-radius:10px;
+}
